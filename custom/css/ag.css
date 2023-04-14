@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgba(248, 212, 83, 1);
+    background: -webkit-linear-gradient(
+        right,
+        rgba(248, 212, 83, 1),
+        rgba(255, 93, 91, 1)
+    );
+    background: -moz-linear-gradient(
+        right,
+        rgba(248, 212, 83, 1),
+        rgba(255, 93, 91, 1)
+    );
+    background: linear-gradient(
+        to left,
+        rgba(248, 212, 83, 1),
+        rgba(255, 93, 91, 1)
+    );
+}
+
+main#primary.content-area.grid.col-620 {
+    padding: 0;
+}
+
+article#post-6.post-6.page.type-page.status-publish.hentry {
+    padding: 7vw !important;
+}
+article#post-32.post-32.page.type-page.status-publish.hentry {
+    padding: 7vw !important;
+}
+
+div.entry-content {
+    margin-top: 14vh;
+    margin-bottom: 7vh;
+}
+
+h1.entry-title.post-title {
+    color: #333;
+    margin-bottom: 1vw;
+    line-height: 1em;
+    font-weight: 500;
+    padding-left: 0.69vw;
+    border-left: 0.6vw solid #f8aa59;
+}
+
+.cont {
+    padding: 12vh 4.86vw 6vh 12vw;
+    background-color: #fff;
+    border-radius: 1.39vw;
+    box-shadow: 0 0.35vw 1.74vw rgba(0, 0, 0, 0.2);
+}
+
+.cont h3 {
+    color: #333;
+    margin-bottom: 1vw;
+    line-height: 1em;
+    font-weight: 500;
+    padding-left: 0.69vw;
+    border-left: 0.35vw solid #f8aa59;
+}
+.cont .contentbox {
+    position: relative;
+    width: 20.83vw;
+    height: 4vh;
+    margin-bottom: 3.33vw;
+}
+.cont .contentbox:last-child {
+    margin-bottom: 0;
+}
+.cont .contentbox input {
+    font-family: "poppins", sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 0.07vw solid #333;
+    background: transparent;
+    padding-left: 0.9vw;
+    padding-right: 0.9vw;
+    border-radius: 0.35vw;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 1.11vw;
+    color: #333;
+    font-weight: 500;
+}
+.cont .contentbox span {
+    position: absolute;
+    top: 0.078125vw;
+    left: 0.078125vw;
+    margin-top: 1vw;
+    padding: 0.5vw;
+    display: inline-block;
+    font-size: 0.96vw;
+    color: #333;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.cont .contentbox input:focus ~ span,
+.cont .contentbox input:valid ~ span {
+    transform: translateX(-0.69vw) translateY(-3.56vw);
+    font: 1.11vw;
+    size: 0.83vw;
+}
+.cont .contentbox input[type="submit"] {
+    background: #f8aa59;
+    padding: 0.8vw;
+    color: #fff;
+}
+.cont .contentbox input[type="submit"]:hover {
+    background: #f8aa59;
+    color: #fff;
+    opacity: 0.8;
+}
+.cont .contentbox .error {
+    position: absolute;
+    top: 0.078125vw;
+    left: 0.078125vw;
+    margin-top: 1vw;
+    padding: 0.5vw;
+    display: inline-block;
+    font-size: 0.96vw;
+    color: red !important;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.mytable {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+    font-weight: 500;
+    box-shadow: 0 0.14vw 1.04vw rgba(64, 64, 64, 0.7);
+    border-radius: 0.83vw 0.83vw 0.83vw 0.83vw;
+    width: 85vw;
+}
+
+.mytable td {
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 !important;
+    padding: 0.33vh 0.69vw 0.33vh 0.69vw !important;
+    font-size: 1vw !important;
+}
+.mytable th {
+    text-align: center;
+    vertical-align: middle;
+    background-color: #f8aa59;
+    color: #fafafa;
+    font-family: "Open Sans", Sans-serif;
+    margin: 0 !important;
+    padding: 0.07vh !important;
+    font-size: 1.11vw !important;
+}
+
+.mytable tr {
+    width: 100%;
+    background-color: #fafafa;
+    font-family: "Montserrat", sans-serif;
+}
+
+.mytable tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+.cont {
+    max-width: 48.61vw;
+    margin: 5.56vh auto;
+}
+
+form {
+    padding: 9vh 5vh 9vh;
+}
+
+.error {
+    color: red;
+    font-weight: 400;
+    padding: 0.67vh 0;
+    font-size: 0.97vw;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 1.04vh 2.22vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.11vw;
+    margin: 0.28vh 0.14vw;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"] + label {
+    position: relative;
+    cursor: pointer;
+    padding-left: 1.5em;
+    font-size: 1.11vw;
+    color: #333;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+
+input[type="radio"] + label::before {
+    content: "";
+    position: absolute;
+    top: 0.3em;
+    left: 0;
+    width: 1em;
+    height: 1em;
+    border: 0.14vw solid #333;
+    border-radius: 50%;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+input[type="radio"]:checked + label::after {
+    content: "";
+    position: absolute;
+    top: 0.6em;
+    left: 0.3em;
+    width: 0.4em;
+    height: 0.4em;
+    border-radius: 50%;
+    background-color: #333;
+}
+
+.cont .contentbox.radio-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cont .contentbox.radio-wrapper label {
+    margin-right: 1.5em;
+}
+
+.cont .contentbox select {
+    font-family: "poppins", sans-serif;
+    position: relative;
+    width: 100%;
+    border: 0.07vw solid #333;
+    background: transparent;
+    padding-left: 0.9vw;
+    padding-right: 0.9vw;
+    border-radius: 0.35vw;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 1.11vw;
+    color: #333;
+    font-weight: 500;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.cont .contentbox select::-ms-expand {
+    display: none;
+}
+
+.cont .contentbox .select-arrow {
+    position: absolute;
+    top: 0;
+    right: 0.9vw;
+    width: 0;
+    height: 0;
+    border-left: 0.35vw solid transparent;
+    border-right: 0.35vw solid transparent;
+    border-top: 0.7vw solid #333;
+    pointer-events: none;
+}
+
+.cont .contentbox select:focus {
+    border-color: #f8aa59;
+}
+
+.cont .contentbox select:focus + .select-arrow {
+    border-top-color: #f8aa59;
+}
+
+.box {
+    width: 300px;
+    height: 30px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+hr.style-seven {
+    overflow: visible;
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
